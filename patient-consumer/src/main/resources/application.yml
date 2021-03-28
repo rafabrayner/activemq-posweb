@@ -1,0 +1,6 @@
+eureka:  instance:    hostname: ${APP_URL:localhost}
+server:
+  port: 8081
+spring:  application:    name: patient-consumer  activemq:    broker-url: ${ACTIVEMQ_BROKER_URL:tcp://localhost:61616}
+    pool:      enabled: ${ACTIVEMQ_POOL_ENABLED:true}
+      max-connections: ${ACTIVEMQ_POOL_CONNECTIONS:50}
