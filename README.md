@@ -15,7 +15,6 @@ Creating mircro services with Springboot using Eureka, Gateway and ActiveMQ
 ## Accessing Eureka: 
 http://localhost:8761
 Instances currently registered with Eureka
-```
 
 ## Accessing PatientProducer
 
