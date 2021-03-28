@@ -10,6 +10,6 @@ spring:
     gateway:
       routes:
       - id: patients
-        uri: lb://patient-consumer
+        uri: lb://patient-producer
         predicates:
-        - Path=/api/patients/**
+        - Path=/api/patient/**
